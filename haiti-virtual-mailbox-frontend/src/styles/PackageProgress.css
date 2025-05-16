@@ -1,0 +1,84 @@
+.progress-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+/* Step item */
+.progress-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 0 10px;
+}
+
+/* Step icon */
+.icon {
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+/* Step label */
+.label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Connecting lines between steps */
+.line {
+  position: absolute;
+  top: 15px;
+  right: -30px;
+  width: 60px;
+  height: 4px;
+  background-color: #ccc;
+  z-index: -1;
+}
+
+/* Completed steps */
+.completed .icon {
+  background-color: #28a745; /* green */
+  color: white;
+}
+
+/* Current active step */
+.current .icon {
+  background-color: #007bff; /* blue */
+  color: white;
+}
+
+/* Upcoming steps */
+.upcoming .icon {
+  background-color: #e0e0e0;
+  color: black;
+}
+
+/* ✅ Responsive on mobile */
+@media (max-width: 480px) {
+  .progress-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .progress-step {
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  .icon {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  .line {
+    display: none; /* Hide lines on mobile */
+  }
+}

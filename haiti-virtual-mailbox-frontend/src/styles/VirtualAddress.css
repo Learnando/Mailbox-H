@@ -1,0 +1,7 @@
+.virtual-address {
+  background-color: #eef;
+  padding: 1rem;
+  border-left: 5px solid #0057a0;
+  margin-bottom: 1rem;
+  font-family: monospace;
+}

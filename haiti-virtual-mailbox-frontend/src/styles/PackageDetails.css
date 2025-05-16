@@ -1,0 +1,31 @@
+.package-details {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.price-input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.price-input-group input {
+  width: 100%;
+  padding-right: 60px; /* Room for USD badge */
+  box-sizing: border-box;
+}
+
+.usd-badge {
+  position: absolute;
+  right: 10px;
+  background-color: #e0f7fa;
+  color: #00796b;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}

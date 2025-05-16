@@ -1,0 +1,39 @@
+.admin-global-message {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-global-message h2 {
+  margin-bottom: 0.5rem;
+}
+
+.admin-global-message p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.admin-global-message textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  margin-bottom: 1rem;
+}
+
+.admin-global-message button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.admin-global-message button:hover {
+  background-color: #0056b3;
+}

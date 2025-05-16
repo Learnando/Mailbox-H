@@ -1,0 +1,442 @@
+{
+  "faq": {
+    "title": "📖 Frequently Asked Questions",
+    "categories": {
+      "general": "General Service Questions",
+      "payments": "Payments",
+      "customs": "Customs & Delivery",
+      "tracking": "Packages & Tracking",
+      "location": "Home Delivery Location",
+      "security": "Security & Support",
+      "prohibited": "Prohibited Items"
+    },
+    "general": [
+      {
+        "q": "How does Bwat Lakay work?",
+        "a": "Sign up to receive your U.S. address. Use it when shopping online. Once your package arrives, we’ll notify you and deliver it to Haiti."
+      },
+      {
+        "q": "When do I receive my U.S. shipping address?",
+        "a": "Immediately after signing up, your virtual address will appear in your dashboard."
+      },
+      {
+        "q": "Can I receive packages from other countries (e.g., China)?",
+        "a": "Yes! Your U.S. address accepts packages from any international seller that ships to the U.S."
+      }
+    ],
+    "payments": [
+      {
+        "q": "What payment methods do you accept in Haiti?",
+        "a": "We accept MonCash, Zelle, Cashapp, and payment receipts via upload."
+      },
+      {
+        "q": "What if the store doesn't accept my Haitian card?",
+        "a": "Use our 'We Buy For You' service. We’ll purchase the item and deliver it to you for a small fee."
+      },
+      {
+        "q": "Can I get a refund for my deposit?",
+        "a": "Yes, contact support with your request and proof of payment."
+      }
+    ],
+    "customs": [
+      {
+        "q": "Do I need to fill out a customs declaration?",
+        "a": "No. Our team handles customs declaration based on the info you provide during submission."
+      },
+      {
+        "q": "When do I pay customs fees?",
+        "a": "Once the package arrives in Haiti, customs or our delivery team will contact you if additional fees apply."
+      },
+      {
+        "q": "Do I have to pay U.S. sales tax?",
+        "a": "We try to avoid U.S. sales tax by using tax-free addresses when possible, but some sellers still apply it."
+      }
+    ],
+    "tracking": [
+      {
+        "q": "How can I track my package?",
+        "a": "Use the tracking number provided in your dashboard to track your shipment from the U.S. to Haiti."
+      },
+      {
+        "q": "What if my package was delivered to the warehouse but isn't in my account?",
+        "a": "It may be missing your name or virtual address. Contact support with your tracking number and order screenshot."
+      },
+      {
+        "q": "Can I cancel a submitted package?",
+        "a": "Yes, if the package hasn't been processed yet, you can cancel it from your dashboard."
+      }
+    ],
+    "location": [
+      {
+        "q": "Can I request home delivery in Haiti?",
+        "a": "Yes, select 'Home Delivery' during submission and our Staff in Haiti will contact you for more"
+      },
+
+      {
+        "q": "Can I edit my delivery location after submitting?",
+        "a": "Yes, contact support quickly or resubmit the correct location before your package is shipped out."
+      }
+    ],
+    "security": [
+      {
+        "q": "Is my personal data safe?",
+        "a": "Yes, we use encryption and secure practices to protect your information."
+      },
+      {
+        "q": "What happens if I forget my password?",
+        "a": "Click 'Forgot Password' on the login page to reset it via your email."
+      },
+      {
+        "q": "How do I contact support?",
+        "a": "Email us or use the Need Help button in your Home Page for assistance."
+      }
+    ],
+    "prohibited": [
+      {
+        "q": "Can I ship electronics with batteries?",
+        "a": "Yes, but only if they’re inside the device and marked properly. Loose batteries are not allowed."
+      },
+      {
+        "q": "Can I ship perfumes or nail polish?",
+        "a": "Yes, in small quantities and only through carriers that allow hazardous goods like DHL or FedEx."
+      }
+    ]
+  },
+
+  "review": {
+    "title": "Leave a Review",
+    "placeholder": "Write your feedback...",
+    "submit": "Submit Review",
+    "success": "✅ Review submitted!",
+    "error": "Something went wrong."
+  },
+
+  "account": {
+    "title": "Update Account Settings",
+    "email": "Email",
+    "newPassword": "New Password",
+    "passwordPlaceholder": "Leave blank to keep current password",
+    "saveChanges": "Save Changes",
+    "success": "✅ Account updated successfully!",
+    "error": "❌ Failed to update account.",
+    "userIdMissing": "User ID not found."
+  },
+
+  "": {
+    "title": "Submit Package",
+    "nameLabel": "Name:",
+    "namePlaceholder": "Enter your full name",
+    "whatsappLabel": "WhatsApp Number:",
+    "whatsappPlaceholder": "e.g. +509xxxxxxx or +1xxxxxxxxxx"
+  },
+  "step": "Step",
+
+  "support": {
+    "needHelp": "Need Help?",
+    "title": "Contact Support",
+    "name": "Your Name",
+    "email": "Your Email",
+    "phone": "Phone Number",
+    "message": "Your Message",
+    "send": "Send",
+    "success": "Message sent!",
+    "error": "Failed to send message. Please try again."
+  },
+
+  "referral": {
+    "credits": "Referral Credits",
+    "code": "Your Referral Code",
+    "share": "Share this link:",
+    "copyButton": "Copy Referral Link",
+    "copied": "Referral link copied to clipboard!"
+  },
+
+  "contact": {
+    "title": "Still Need Help?",
+    "description": "If your question wasn’t answered above, send us a message and we’ll respond within 1 business day.",
+    "name": "Your Name",
+    "email": "Your Email or WhatsApp",
+    "message": "Describe your issue...",
+    "submit": "Send Message",
+    "success": "✅ Message sent! We'll get back to you shortly."
+  },
+
+  "about": {
+    "title": " Connecting Haiti to the World",
+    "intro1": "Welcome to Bwat Lakay, a shipping and logistics platform created with one mission in mind: to bridge the gap between the global marketplace and the people of Haiti. Our service was born out of a deeply rooted understanding of the challenges faced by Haitians when it comes to shopping online, receiving packages, and accessing global commerce.",
+    "intro2": "In a world where e-commerce is booming, Haiti has been left behind—not because of a lack of desire, but because of a lack of access. We're here to change that.",
+    "problemTitle": "🌍 The Problem We’re Solving",
+    "problem1": "For years, individuals in Haiti have faced a unique set of problems when trying to shop or receive items internationally. Most people in Haiti do not have access to credit or debit cards, making it virtually impossible to shop on sites like Amazon, Walmart, or eBay.",
+    "problem2": "Even those who do have access often struggle with unreliable shipping, expensive customs fees, or simply no physical address to receive packages. Haiti’s infrastructure doesn’t support direct-to-home delivery, and many homes lack official mailing addresses. Local shipping options are limited or unaffordable. For too long, people have had to rely on friends or family abroad—a solution that’s both unreliable and inconvenient.",
+    "solutionTitle": "📦 Our Solution: A Smarter Way to Ship",
+    "solution1": "At Bwat Lakay, we created a virtual mailbox and purchasing service tailored to Haiti. If you have a credit or debit card, you can use our app to submit your packages directly to our U.S. warehouse. Just enter your virtual address (e.g., HUB001-123456), include your phone number and tracking number, and choose air or sea, home delivery or pickup.",
+    "solution2": "For users without payment cards, we built the “Buy For Me” service. Just tell us what you want, we’ll confirm the price and a small service fee, and you can pay us locally. We'll handle the purchase and get it delivered to Haiti—no card required.",
+    "whyTitle": "🤝 Why We Care",
+    "why": "We are Haitians. We’ve watched family and friends miss chances to work, study, or care for loved ones simply because they couldn’t get what they needed. This platform is our way of creating real economic opportunity. We want Haitians to have a reliable, secure, and affordable path into the digital world—so no one gets left behind.",
+    "visionTitle": "🚀 Our Vision",
+    "vision": "Commerce should be for everyone—not just people with a U.S. address or a Visa card. Our goal is to become the most trusted delivery and shopping assistant in Haiti. Whether it’s a book, a phone, school supplies, or household goods, we want every Haitian to know they can get it safely and affordably."
+  },
+
+  "terms": {
+    "title": "Terms and Conditions",
+    "intro": "Welcome to Bwat Lakay! By using our services, you agree to the following terms. Please read them carefully.",
+    "section1": {
+      "title": "1. About Our Service",
+      "content": "Bwat Lakay provides a virtual U.S. shipping address and delivery support for customers in Haiti. We are not responsible for delays caused by third-party couriers or customs."
+    },
+    "section2": {
+      "title": "2. User Responsibilities",
+      "point1": "You must provide accurate information during registration.",
+      "point2": "You are responsible for tracking your shipments and payments.",
+      "point3": "Illegal or restricted items are strictly prohibited."
+    },
+    "section3": {
+      "title": "3. Payments and Fees",
+      "content": "Shipping fees must be paid before your item is delivered. Payments can be made via CashApp, Zelle, or MonCash. We do not issue refunds for completed shipments."
+    },
+    "section4": {
+      "title": "4. Referral Program",
+      "content": "Earn credits when someone registers with your referral code and successfully submits a package. Credits have no cash value and may only be used for shipping."
+    },
+    "section5": {
+      "title": "5. Account Termination",
+      "content": "We reserve the right to suspend or terminate accounts for fraud, abuse, or violation of these terms."
+    },
+    "section6": {
+      "title": "6. Changes to Terms",
+      "content": "We may update these terms occasionally. We encourage users to review this page periodically."
+    },
+    "section7": {
+      "title": "7. Contact Us",
+      "content": "If you have questions, email us at"
+    },
+    "back": "⬅ Back to Home"
+  },
+
+  "welcome": {
+    "greeting": "Welcome, {{name}}!",
+    "user": "User",
+    "addressLabel": "Your U.S. Shipping Address:",
+    "copy": "Copy",
+    "copied": "Address copied!"
+  },
+  "home": {
+    "title": "Welcome to Haiti Virtual Mailbox",
+    "subtitle": "Get your own virtual address to receive packages safely and reliably.",
+    "getStarted": "Get Started"
+  },
+  "submitPackage": "Submit a New Package",
+  "buyForMe": "Buy For Me",
+  "myRequests": "My Requests",
+  "yourPackages": "Your Packages",
+  "total": "Total Packages",
+  "pending": "Pending",
+  "inTransit": "In Transit",
+  "delivered": "Delivered",
+  "addressTitle": "Your U.S. Shipping Address:",
+  "noPackages": "No packages submitted yet.",
+  "confirmRemove": "Are you sure you want to remove this package from your view?",
+  "removed": "Package removed from your view!",
+  "removeFail": "Could not remove package",
+  "confirmCancel": "Cancel this request? This action is final.",
+  "cancelled": "Package cancelled.",
+  "cancelFail": "Could not cancel request.",
+  "badge": {
+    "newbie": "🆕 New Member",
+    "bronze": "🥉 Bronze Member",
+    "silver": "🥈 Silver Member",
+    "gold": "🥇 Gold Member",
+    "vip": "👑 VIP Legend"
+  },
+  "unknown": "Unknown",
+  "noDescription": "No description",
+  "myPurchaseRequests": "My Purchase Requests",
+  "noRequests": "You haven’t submitted any requests yet.",
+  "itemLink": "Item Link",
+  "viewProduct": "View Product",
+  "estimatedPrice": "Estimated Price",
+  "quantity": "Quantity",
+  "notes": "Notes",
+  "status": "Status",
+  "awaitingpayment": "💰 Awaiting Payment",
+  "ordered": "✅ Ordered",
+  "shipped": "🚚 Shipped",
+  "cancelRequest": "Cancel Request",
+  "confirmDelete": "Are you sure you want to delete this request?",
+  "deleted": "Request deleted.",
+  "deleteFail": "Could not delete request.",
+  "cancelledMsg": "Request cancelled.",
+  "receiptUploaded": "Receipt uploaded. Awaiting verification.",
+  "uploadFail": "Could not upload receipt.",
+  "yourPackageArrived": "Your package has arrived in the U.S.",
+  "shippingFee": "Shipping Fee:",
+  "paymentInstructions": "Please send payment to",
+  "cashAppTag": "CashApp: $haitipackage",
+  "uploadReceipt": "After payment, upload your receipt below.",
+  "itemPaid": "Your item has been paid and is on the way!",
+  "submitted": "Submitted",
+  "packageDetails": "Package Details",
+  "trackingNumber": "Tracking #",
+  "customer": "Customer",
+  "shippingMethod": "Shipping Method",
+  "deliveryOption": "Delivery Option",
+  "note": "Note",
+  "loadingDetails": "Loading package details...",
+  "notFound": "Package not found.",
+  "trackYourPackages": "Track Your Packages",
+  "searchPlaceholder": "🔍 Search by tracking number or description...",
+  "noPackagesFound": "No packages found.",
+  "noTracking": "No Tracking #",
+  "back": "Back",
+  "next": "Next",
+  "submit": {
+    "success": "Package submitted successfully!",
+    "failed": "Failed to submit package. Try again!"
+  },
+  "error": {
+    "phoneRequired": "Please enter your phone number!",
+    "descriptionRequired": "Please describe your product!",
+    "priceRequired": "Please enter a valid product price!",
+    "screenshotRequired": "Please upload a receipt screenshot before submitting."
+  },
+  "step1": {
+    "title": "Contact Info",
+    "customerName": "Customer Name",
+    "phone": "Phone (e.g. +509...)"
+  },
+  "step2": {
+    "title": "Package Details",
+    "descriptionLabel": "Product Description",
+    "descriptionPlaceholder": "Describe the product you're submitting...",
+    "priceLabel": "Product Price",
+    "pricePlaceholder": "Enter product price",
+    "senderLabel": "Sender Name",
+    "senderPlaceholder": "e.g. Amazon, Walmart, etc.",
+    "creditsUsed": "Total Credit Use"
+  },
+  "step3": {
+    "title": "Shipping & Delivery",
+    "shippingLabel": "Shipping Method",
+    "air": "Air",
+    "sea": "Sea",
+    "deliveryLabel": "Delivery Option",
+    "pickup": "Pickup",
+    "home": "Home"
+  },
+  "step4": {
+    "title": "Review Your Package Details",
+    "customerName": "Customer Name",
+    "whatsapp": "WhatsApp Number",
+    "description": "Product Description",
+    "price": "Product Price",
+    "shipping": "Shipping Method",
+    "delivery": "Delivery Option",
+    "note": "Note",
+    "noNote": "No special note",
+    "screenshot": "Screenshot",
+    "noScreenshot": "No screenshot uploaded",
+    "updateScreenshot": "Update Screenshot (optional)",
+    "submit": "Confirm & Submit"
+  },
+  "virtualAddress": {
+    "label": "Your Virtual Address:"
+  },
+  "card": {
+    "tracking": "Tracking #",
+    "copy": "Copy",
+    "copied": "Copied",
+    "status": "Status",
+    "sender": "Sender",
+    "description": "Description",
+    "readMore": "Read More",
+    "readLess": "Read Less",
+    "submitted": "Submitted",
+    "ready": "Your package is ready for pickup",
+    "pickupNote": "Please visit our office to collect your package.",
+    "cancel": "Cancel Package"
+  },
+  "statuses": {
+    "pending": "⏳ Pending",
+    "awaitingpayment": "💰 Awaiting Payment",
+    "ordered": "✅ Ordered",
+    "shipped": "🚚 Shipped",
+    "delivered": "📬 Delivered",
+    "cancelled": "❌ Cancelled"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "submit": "Submit Package",
+    "track": "Track Package",
+    "help": "Help",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register",
+    "manageUsers": "Manage Users",
+    "managePackages": "Manage Packages",
+    "manageRequests": "Manage Requests",
+    "globalMessage": "Global Message",
+    "about": "About",
+    "faq": "FAQ",
+    "accountSettings": "Account Settings"
+  },
+
+  "help": {
+    "heading": "❓ How to Use Bwat Lakay",
+    "intro": "Here’s a simple guide to using our package forwarding service.",
+    "step1": {
+      "title": "Step 1: Register an Account",
+      "description": "Go to Register and create your account. Once registered, you'll receive a virtual address like #HUB001-740065. After that, you can log in to your dashboard."
+    },
+    "step2": {
+      "title": "Step 2: View Dashboard",
+      "description": "After login, you'll see your virtual address, a U.S. shipping address, and 3 buttons: Submit Package, Buy For Me, and My Requests."
+    },
+    "step3": {
+      "title": "Step 3: Submit a Package",
+      "description": "If you bought an item online (like Amazon), click 'Submit Package', fill in your virtual address, phone number, product details, price, sender (e.g., Amazon), choose Air/Sea shipping and delivery method (pickup or home). Then upload your order receipt and click Submit.\n\nDon’t have a debit/credit card? 👉 Try our Buy For Me service below."
+    },
+    "learn_buy_for_me": "Learn about Buy For Me",
+    "step4": {
+      "title": "Step 4: Track Your Package",
+      "description": "After submitting, the package appears in your dashboard. Use the 'Track Package' page to view status updates like: Pending, Awaiting Payment, Shipped, or Delivered."
+    },
+    "step5": {
+      "title": "Step 5: Pay Shipping Fee",
+      "description": "When your item arrives in the U.S., you'll see a message on Track Package like:\n💵 Your package has arrived in the U.S.\nShipping Fee: $10.00\nSend payment via CashApp: $haitipackage\nThen upload your payment receipt below."
+    },
+    "step6": {
+      "title": "Step 6: Wait for Delivery",
+      "description": "Once we verify your payment, the status will update. Keep checking your dashboard for delivery updates. When ready, you'll be contacted by phone or email to pick it up or receive delivery."
+    },
+    "buy": {
+      "title": "Buy For Me",
+      "description1": "If you don’t have a credit/debit card, use our “Buy For Me” service. Click the button on your dashboard, submit the product link and we’ll purchase it for you. Once you approve the final price and pay, we’ll handle the rest like a normal package.",
+      "description2": "📦 To stay informed about your request, go to <strong>My Requests</strong>. You’ll see real-time status updates like:",
+      "status": {
+        "pending": "Pending",
+        "awaiting": "Awaiting Payment",
+        "ordered": "Ordered",
+        "shipped": "Shipped",
+        "delivered": "Delivered"
+      },
+      "status_text": {
+        "pending": "Request received, awaiting review",
+        "awaiting": "Admin set the final fee",
+        "ordered": "We’ve purchased the item",
+        "shipped": "Item is on the way to Haiti",
+        "delivered": "Ready for pickup or delivery"
+      },
+      "description3": "When your item arrives in the U.S., you’ll see this message:<br /><br />💵 <strong>Your package has arrived in the U.S.</strong><br />Shipping Fee: <strong>$10.00</strong><br />Please send payment via CashApp: <strong>$haitipackage</strong><br />After payment, upload your receipt below.",
+      "description4": "💳 You can also pay using <strong>Zelle</strong> or <strong>MonCash</strong>. Upload the payment confirmation as proof. Once verified, we’ll update the status and you can keep tracking your order in <strong>My Requests</strong>."
+    },
+    "language": {
+      "title": "Change Language",
+      "intro": "You can use Bwat Lakay in either Kreyòl Ayisyen or English. To switch the language:",
+      "step1": "Click the language toggle icon (Creole or English)",
+      "step2": "Select your preferred language",
+      "step3": "The app will update automatically!",
+      "outro": "This helps make Bwat Lakay easier for everyone in their preferred language."
+    },
+    "back": "Back to Home"
+  }
+}

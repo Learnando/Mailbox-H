@@ -1,0 +1,59 @@
+.package-form-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.package-form-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+}
+
+.package-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.package-form-container input,
+.package-form-container textarea,
+.package-form-container select {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.package-form-container textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.package-form-container label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.package-form-container input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+.package-form-container button {
+  background-color: #0057a0;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.package-form-container button:hover {
+  background-color: #003f7f;
+}

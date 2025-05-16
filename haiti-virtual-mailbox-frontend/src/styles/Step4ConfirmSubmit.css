@@ -1,0 +1,65 @@
+.step-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Review Section */
+.form-review p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* ✅ Screenshot Upload Section */
+.form-group {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* ✅ Fix file input inside form-group */
+.form-group input[type="file"] {
+  width: 100%;
+  max-width: 220px; /* ✅ Shrink a little bit more */
+  margin: 10px auto 0;
+  display: block;
+  font-size: 0.9rem;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+
+/* ✅ Mobile Fixes */
+@media (max-width: 480px) {
+  .form-review p {
+    font-size: 0.95rem;
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
+}

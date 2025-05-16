@@ -1,0 +1,55 @@
+.about-page {
+  background-color: #fff;
+  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.7;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.about-page h1 {
+  font-size: 2rem;
+  color: #2563eb;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.about-page h2 {
+  font-size: 1.25rem;
+  color: #1d4ed8;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.about-page p {
+  margin-bottom: 16px;
+  font-size: 1rem;
+}
+
+.about-page strong {
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .about-page {
+    padding: 20px;
+  }
+
+  .about-page h1 {
+    font-size: 1.5rem;
+    flex-direction: column;
+  }
+
+  .about-page h2 {
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,55 @@
+.terms-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+}
+
+.terms-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.terms-container h2 {
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+  color: #0056b3;
+}
+
+.terms-container p,
+.terms-container li {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0.5rem 0;
+}
+
+.terms-container ul {
+  margin-left: 1.5rem;
+  list-style: disc;
+}
+
+.terms-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.terms-footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.terms-container .btn {
+  display: inline-block;
+  margin-top: 2rem;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}

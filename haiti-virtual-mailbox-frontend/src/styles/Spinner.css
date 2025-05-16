@@ -1,0 +1,23 @@
+/* Spinner.css */
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.spinner-circle {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #ccc;
+  border-top-color: #4f46e5; /* a nice blue color */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+/* Animation for rotating */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,164 @@
+.dashboard {
+  padding: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.dashboard h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333;
+  text-align: center;
+}
+
+.purchase-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.purchase-card {
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.purchase-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.purchase-card p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.purchase-card strong {
+  color: #111;
+}
+
+.purchase-card a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.purchase-card a:hover {
+  text-decoration: underline;
+}
+
+.delete-request-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.delete-request-btn:hover {
+  background-color: #e60000;
+}
+
+.payment-alert-box {
+  background-color: #fff8e1;
+  border: 1px solid #ffe58f;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.payment-alert-box p {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+.payment-alert-box strong {
+  font-weight: bold;
+}
+
+.file-input {
+  margin-top: 8px;
+}
+
+.payment-alert button:hover {
+  background-color: #1e874b;
+}
+
+.delete-btn {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  float: right;
+  margin-top: -10px;
+}
+
+.delete-btn:hover {
+  background-color: #d9363e;
+}
+
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 0.95rem;
+}
+
+.status-pending {
+  background-color: #fcefcf;
+  color: #d08800;
+}
+
+.status-awaiting-payment {
+  background-color: #fff3f3;
+  color: #e14c4c;
+}
+
+.status-ordered {
+  background-color: #e3f7e3;
+  color: #228822;
+}
+
+.status-shipped {
+  background-color: #e5f2ff;
+  color: #2c7be5;
+}
+
+.status-delivered {
+  background-color: #d1f5d1;
+  color: #2b9348;
+}
+
+.status-cancelled {
+  background-color: #f8d7da;
+  color: #b02a37;
+}
+
+@media screen and (max-width: 480px) {
+  .dashboard h2 {
+    font-size: 1.4rem;
+  }
+
+  .purchase-card {
+    padding: 0.8rem;
+  }
+
+  .purchase-card p {
+    font-size: 0.9rem;
+  }
+}

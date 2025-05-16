@@ -1,0 +1,81 @@
+.welcome-box {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.welcome-box h2 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.welcome-box p {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.address-block {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.address-block pre {
+  font-family: "Courier New", monospace;
+  white-space: pre-line;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Highlight important part (ZIP code) */
+.highlight {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Copy button styling */
+.copy-btn {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.copy-btn:hover {
+  background-color: #0056b3;
+}
+
+/* ✅ Responsive behavior */
+@media (max-width: 480px) {
+  .welcome-box {
+    padding: 15px;
+  }
+
+  .welcome-box h2 {
+    font-size: 1.5rem;
+  }
+
+  .welcome-box p {
+    font-size: 1rem;
+  }
+
+  .address-block pre {
+    font-size: 0.95rem;
+  }
+
+  .copy-btn {
+    width: 100%;
+  }
+}

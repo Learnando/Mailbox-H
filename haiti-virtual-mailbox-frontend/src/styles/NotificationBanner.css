@@ -1,0 +1,20 @@
+.notification-banner {
+  width: 100%;
+  background-color: #ffeeba; /* light yellow background for notification */
+  color: #856404; /* dark yellow text */
+  padding: 12px 20px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 1px solid #ffeeba;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+/* ✅ Responsive Behavior */
+@media (max-width: 480px) {
+  .notification-banner {
+    padding: 10px 12px;
+    font-size: 0.9rem;
+  }
+}

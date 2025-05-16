@@ -1,0 +1,100 @@
+// index.html (inside public/index.html)
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haiti Virtual Mailbox</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
+
+// main.tsx
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './styles/global.css';
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
+<React.StrictMode>
+    <App />
+</React.StrictMode>
+);
+
+// App.tsx
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Dashboard from './pages/Dashboard';
+import './styles/App.css';
+
+const App = () => {
+return (
+<Router>
+    <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+    </Routes>
+</Router>
+);
+};
+
+export default App;
+
+// pages/Home.tsx
+import React from 'react';
+import '../styles/Home.css';
+
+const Home = () => {
+return (
+<div className="home-container">
+    <h1>Welcome to Haiti Virtual Mailbox</h1>
+    <p>Create your virtual address and receive packages.</p>
+</div>
+);
+};
+
+export default Home;
+
+// pages/Dashboard.tsx
+import React from 'react';
+import '../styles/Dashboard.css';
+
+const Dashboard = () => {
+return (
+<div className="dashboard-container">
+    <h2>Your Dashboard</h2>
+    <p>Manage your packages and profile here.</p>
+</div>
+);
+};
+
+export default Dashboard;
+
+// styles/global.css
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #f2f2f2;
+}
+
+// styles/Home.css
+.home-container {
+padding: 2rem;
+text-align: center;
+}
+
+// styles/Dashboard.css
+.dashboard-container {
+padding: 2rem;
+text-align: center;
+}
+
+// styles/App.css
+/* Additional shared styles can go here */

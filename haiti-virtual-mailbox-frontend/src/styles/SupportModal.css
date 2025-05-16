@@ -1,0 +1,177 @@
+/* Floating Icon Button */
+.support-icon {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 18px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.support-icon:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* Modal Container */
+.support-modal {
+  position: fixed;
+  bottom: 100px;
+  right: 24px;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  width: 320px;
+  z-index: 1001;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  animation: fadeInUp 0.3s ease;
+}
+
+/* Simple entrance animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Modal Content */
+.support-modal-content {
+  position: relative;
+}
+
+.support-modal-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.close-btn:hover {
+  color: #111827;
+}
+
+/* Form Elements */
+.support-form input,
+.support-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  transition: border 0.2s ease;
+}
+
+.support-form input:focus,
+.support-form textarea:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+/* Submit Button */
+.support-form button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.95rem;
+  width: 100%;
+  transition: background 0.2s ease;
+}
+
+.support-form button:hover {
+  background-color: #1e40af;
+}
+
+/* Success Message */
+.success-message {
+  color: #10b981;
+  font-weight: 600;
+  text-align: center;
+}
+
+.support-label {
+  display: none;
+  margin-left: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+@media (min-width: 500px) {
+  .support-label {
+    display: inline;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .support-modal {
+    background-color: #1f2937;
+    border-color: #374151;
+    color: #f3f4f6;
+  }
+
+  .support-modal-content h3,
+  .support-label {
+    color: #f9fafb;
+  }
+
+  .support-form input,
+  .support-form textarea {
+    background-color: #111827;
+    border-color: #374151;
+    color: #f9fafb;
+  }
+
+  .support-form input:focus,
+  .support-form textarea:focus {
+    border-color: #60a5fa;
+  }
+
+  .close-btn {
+    color: #d1d5db;
+  }
+
+  .close-btn:hover {
+    color: #ffffff;
+  }
+
+  .support-form button {
+    background-color: #3b82f6;
+  }
+
+  .support-form button:hover {
+    background-color: #2563eb;
+  }
+
+  .success-message {
+    color: #34d399;
+  }
+}

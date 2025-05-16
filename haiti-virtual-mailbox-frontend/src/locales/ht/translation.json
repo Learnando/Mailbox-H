@@ -1,0 +1,461 @@
+{
+  "faq": {
+    "title": "📖 Kesyon Moun Poze Souvan",
+    "categories": {
+      "general": "Kesyon Jeneral sou Sèvis la",
+      "payments": "Pèman",
+      "customs": "Dwa ak Livrezon",
+      "tracking": "Pake ak Swiv",
+      "location": "Livrezon Lakay",
+      "security": "Sekirite ak Sipò",
+      "prohibited": "Atik Entèdi"
+    },
+    "general": [
+      {
+        "q": "Kijan Bwat Lakay mache?",
+        "a": "Enskri pou resevwa adrès ou Ozetazini. Itilize li lè wap achte sou entènèt. Lè pake a rive, n ap voye notifikasyon epi n ap voye li Ayiti."
+      },
+      {
+        "q": "Kilè mwen resevwa adrès Ameriken mwen an?",
+        "a": "Apre ou fin enskri, adrès ou ap parèt imedyatman sou tablodbò ou a."
+      },
+      {
+        "q": "Èske mwen ka resevwa pake ki sòti lòt peyi tankou Lachin?",
+        "a": "Wi! Adrès Ameriken ou a ka resevwa tout pake ki sòti nan nenpòt lòt peyi ki livre Ozetazini."
+      }
+    ],
+    "payments": [
+      {
+        "q": "Ki metòd peman ou aksepte an Ayiti?",
+        "a": "Nou aksepte MonCash, Zelle, Cash App , ak resi peman ou ka telechaje sou fòm lan."
+      },
+      {
+        "q": "Kisa pou mwen fè si magazen an pa aksepte kat mwen an?",
+        "a": "Sèvi ak sèvis 'Nou Achte Pou Ou'. Nou ap achte atik la epi voye li pou ou pou yon ti frè."
+      },
+      {
+        "q": "Èske mwen ka jwenn ranbousman pou depo mwen an?",
+        "a": "Wi, kontakte sipò ak demann ou a ak prèv peman an."
+      }
+    ],
+    "customs": [
+      {
+        "q": "Èske mwen bezwen ranpli deklarasyon ladwàn?",
+        "a": "Non. Ekip nou an okipe deklarasyon ladwàn ki baze sou enfòmasyon ou bay pandan soumèt la."
+      },
+      {
+        "q": "Kilè mwen peye frè ladwàn?",
+        "a": "Lè pake a rive Ayiti, ladwàn oswa ekip livrezon nou an ap kontakte ou si gen frè siplemantè."
+      },
+      {
+        "q": "Èske mwen oblije peye taks sou vant Ozetazini?",
+        "a": "Nou eseye evite taks sou vant Ozetazini lè nou itilize adrès san taks lè sa posib, men kèk vandè toujou aplike li."
+      }
+    ],
+    "tracking": [
+      {
+        "q": "Kijan mwen ka swiv pake mwen an?",
+        "a": "Itilize nimewo swiv (HT325323844) ki bay sou tablodbò ou a pou swiv chajman ou soti Ozetazini rive Ayiti."
+      },
+      {
+        "q": "E si pake mwen an ta delivre nan depo a men li pa parèt nan kont mwen an?",
+        "a": "Li ka manke non ou oswa adrès vityèl ou. Kontakte sipò ak nimewo swiv ou ak ekran lòd ou a."
+      },
+      {
+        "q": "Èske mwen ka anile yon pake mwen soumèt?",
+        "a": "Wi, si pake a poko trete, ou ka anile li nan tablodbò ou a."
+      }
+    ],
+    "location": [
+      {
+        "q": "Èske mwen ka mande livrezon lakay an Ayiti?",
+        "a": "Wi, chwazi 'Livrezon Lakay' pandan soumèt la epi staf nou ki an Ayiti ap kontakte ou pou plis enfo."
+      },
+
+      {
+        "q": "Èske mwen ka modifye kote livrezon mwen apre mwen fin soumèt li?",
+        "a": "Wi, kontakte sipò rapidman oswa re-soumèt kote ki kòrèk la anvan pake ou a voye."
+      }
+    ],
+    "security": [
+      {
+        "q": "Èske done pèsonèl mwen an an sekirite?",
+        "a": "Wi, nou itilize chifreman ak pratik sekirite pou pwoteje enfòmasyon ou yo."
+      },
+      {
+        "q": "Kisa ki rive si mwen bliye modpas mwen?",
+        "a": "Klike sou 'Bliye Modpas' sou paj koneksyon an pou re-inisyalize li atravè imèl ou."
+      },
+      {
+        "q": "Kijan mwen ka kontakte sipò?",
+        "a": "Voye imèl ba nou oswa itilize bouton Bezwen Èd ki nan Paj ofisyel ou a pou jwenn asistans."
+      }
+    ],
+    "prohibited": [
+      {
+        "q": "Èske mwen ka voye elektwonik ki gen batri?",
+        "a": "Wi, men sèlman si yo andedan aparèy la epi byen make. Batri ki pa andedan aparèy pa pèmèt."
+      },
+      {
+        "q": "Èske mwen ka voye parfen oswa verni zong?",
+        "a": "Wi, an ti kantite epi sèlman atravè transpòtè ki pèmèt machandiz danjere tankou DHL oswa FedEx."
+      }
+    ]
+  },
+
+  "review": {
+    "title": "Kite yon Revizyon",
+    "placeholder": "Ekri opinyon ou isit la...",
+    "submit": "Voye Revizyon",
+    "success": "✅ Revizyon ou te voye!",
+    "error": "Yon erè rive pandan ou t ap voye revizyon an."
+  },
+
+  "account": {
+    "title": "Mizajou Anviwònman Kont",
+    "email": "Imèl",
+    "newPassword": "Nouvo Modpas",
+    "passwordPlaceholder": "Kite li vid si ou pa vle chanje modpas la",
+    "saveChanges": "Anrejistre Chanjman yo",
+    "success": "✅ Kont lan mete ajou avèk siksè!",
+    "error": "❌ Echèk mete ajou kont lan.",
+    "userIdMissing": "ID itilizatè pa jwenn."
+  },
+
+  "": {
+    "title": "Soumèt Pakè a",
+    "nameLabel": "Non:",
+    "namePlaceholder": "Antre non w konplè",
+    "whatsappLabel": "Nimewo WhatsApp:",
+    "whatsappPlaceholder": "eg. +509xxxxxxx oswa +1xxxxxxxxxx"
+  },
+  "step": "Etap",
+
+  "support": {
+    "needHelp": "Bezwen Èd?",
+    "title": "Kontakte Sipò",
+    "name": "Non Ou",
+    "email": "Imèl Ou",
+    "phone": "Nimewo Telefòn",
+    "message": "Mesaj Ou a",
+    "send": "Voye",
+    "success": "Mesaj la voye!",
+    "error": "Echèk pou voye mesaj la. Tanpri eseye ankò."
+  },
+
+  "referral": {
+    "credits": "Kredi Referans",
+    "code": "Kòd Referans Ou",
+    "share": "Pataje lyen sa a:",
+    "copyButton": "Kopye Lyen Referans",
+    "copied": "Lyen referans lan kopye!"
+  },
+
+  "contact": {
+    "title": "Ou toujou bezwen èd?",
+    "description": "Si ou pa jwenn repons ou anwo a, voye nou yon mesaj epi nou va reponn ou nan 1 jou travay.",
+    "name": "Non Ou",
+    "email": "Imèl ou oswa WhatsApp",
+    "message": "Dekri pwoblèm ou...",
+    "submit": "Voye Mesaj",
+    "success": "✅ Mesaj ou voye! N ap tounen ba ou yon repons byento."
+  },
+
+  "about": {
+    "title": " Konekte Ayiti ak Rès Mond lan",
+    "intro1": "Byenveni sou Bwat Lakay, yon platfòm anbake ak lojistik ki fèt ak yon sèl misyon: konekte pèp Ayisyen an ak mache entènasyonal la. Sèvis sa a fèt pou reponn ak bezwen moun ki pa ka achte sou entènèt oswa resevwa pakè yo fasil.",
+    "intro2": "Nan yon mond kote e-commerce ap eksploze, Ayiti rete dèyè—pa paske li pa vle, men paske li pa gen aksè. Nou la pou chanje sa.",
+    "problemTitle": "🌍 Pwoblèm Nou Ap Rezoud",
+    "problem1": "Depi plizyè ane, Ayisyen ap lite pou achte oswa resevwa machandiz soti aletranje. Pifò moun pa gen kat kredi oswa kat debi, sa ki fè li prèske enposib pou achte sou sit tankou Amazon, Walmart, oswa eBay.",
+    "problem2": "Menm moun ki gen kat yo konn jwenn pwoblèm ak anbake ki pa serye, frè koutim ki chè, oswa yo pa gen adrès fòmèl pou resevwa pakè yo. Ayiti pa gen yon sistèm livrezon dirèk nan kay tankou lòt peyi yo. Sa fòse anpil moun konte sou zanmi oswa fanmi aletranje—ki pa toujou disponib oswa serye.",
+    "solutionTitle": "📦 Solisyon Nou: Yon Fason Pi Entelijan Pou Voye Pakè",
+    "solution1": "Avèk Bwat Lakay, nou kreye yon bwat postal vityèl ak yon sèvis achte pou ou ki fèt espesyalman pou Ayiti. Si ou gen yon kat debi oswa kredi, ou ka voye pakè ou nan depo nou an Ozetazini. Jis antre adrès vityèl ou (tankou HUB001-123456), mete nimewo telefòn ou ak nimewo tracking lan, epi chwazi si ou vle pa lanmè oswa pa lè, lakay ou oswa al pran li.",
+    "solution2": "Pou moun ki pa gen kat, nou lanse sèvis “Achte Pou Mwen”. Di nou sa ou vle, nou ba ou pri a ak yon ti frè sèvis, epi ou peye nou an goud oswa transfè lokal. Nou achte li pou ou epi voye li Ayiti san ou pa bezwen kat.",
+    "whyTitle": "🤝 Poukisa Sa Enpòtan Pou Nou",
+    "why": "Nou se Ayisyen. Nou wè fanmi ak zanmi rate opòtinite pou travay, etidye, oswa pran swen moun yo renmen paske yo pa ka jwenn sa yo bezwen. Platfòm sa a se fason pa nou pou kreye opòtinite ekonomik. Nou vle tout Ayisyen gen aksè ak e-commerce, an sekirite, serye, epi abòdab.",
+    "visionTitle": "🚀 Vizyon Nou",
+    "vision": "Nou kwè komès pa dwe sèlman pou moun ki gen adrès Ozetazini oswa kat Visa. Nou vle vin pi bon zanmi Ayiti nan achte sou entènèt ak resevwa pakè. Kit se yon liv, yon telefòn, materyèl lekòl, oswa atik kay, nou vle tout Ayisyen gen konfyans ke yo ka resevwa yo san danje ak fasil."
+  },
+
+  "terms": {
+    "title": "Tèm ak Kondisyon Sèvis",
+    "intro": "Byenvini sou Bwat Lakay! Lè ou itilize sèvis nou yo, ou dakò ak règ sa yo. Tanpri li yo ak anpil atansyon.",
+    "section1": {
+      "title": "1. Konsènan Sèvis Nou an",
+      "content": "Bwat Lakay ba ou yon adrès shipping Ozetazini epi ede w resevwa pakè ou yo an Ayiti. Nou pa responsab pou reta ki fèt pa konpayi livrezon oswa koutim."
+    },
+    "section2": {
+      "title": "2. Responsablite Itilizatè a",
+      "point1": "Ou dwe bay enfòmasyon ki kòrèk lè w ap enskri.",
+      "point2": "Ou responsab pou verifye pakè ou yo epi peye frè yo a tan.",
+      "point3": "Nou pa aksepte atik ilegal oswa entèdi."
+    },
+    "section3": {
+      "title": "3. Peman ak Frè",
+      "content": "Ou dwe peye frè shipping anvan ou resevwa pakè w la. Peman ka fèt atravè CashApp, Zelle oswa MonCash. Nou pa remèt lajan pou pakè ki deja voye."
+    },
+    "section4": {
+      "title": "4. Pwogram Rekòmandasyon",
+      "content": "Ou ka touche kredi lè ou envite lòt moun itilize kòd referans ou epi yo soumèt yon pakè. Kredi yo pa gen valè lajan kach, yo ka sèvi sèlman pou peye frè shipping."
+    },
+    "section5": {
+      "title": "5. Sispansyon Kont",
+      "content": "Nou ka sispann oswa fèmen kont ki fè magouy, abi, oswa vyole tèm sa yo."
+    },
+    "section6": {
+      "title": "6. Chanjman nan Règ yo",
+      "content": "Nou ka mete règ sa yo ajou de tan zan tan. N ap ankouraje w tcheke paj sa a regilyèman."
+    },
+    "section7": {
+      "title": "7. Kontakte Nou",
+      "content": "Si ou gen kesyon, voye imèl ba nou sou"
+    },
+    "back": "⬅ Retounen lakay"
+  },
+
+  "welcome": {
+    "greeting": "Byenveni, {{name}}!",
+    "user": "Itilizatè",
+    "addressLabel": "Adrès U.S. Shipping Ou:",
+    "copy": "Kopye",
+    "copied": "Adrès la kopye!"
+  },
+  "submitPackage": "Soumèt yon Nouvo Pakè",
+  "buyForMe": "Achte Pou Mwen",
+  "myRequests": "Demand Mwen Yo",
+  "yourPackages": "Pakè Ou Yo",
+  "total": "Total Pakè",
+  "pending": "An Atant",
+  "inTransit": "Nan transpò",
+  "delivered": "Livrezon Fèt",
+  "addressTitle": "Adrès Shipping Ou:",
+  "copy": "Kopye",
+  "copied": "Kopye!",
+  "noPackages": "Pa gen okenn pakè soumèt.",
+  "confirmRemove": "Eske ou sèten ou vle retire pakè sa?",
+  "removed": "Pakè retire.",
+  "removeFail": "Pakè pa ka retire",
+  "confirmCancel": "Eske ou vle anile pakè sa?",
+  "cancelled": "Pakè anile.",
+  "cancelFail": "Echwe pou anile pakè a.",
+  "badge": {
+    "newbie": "🆕 Nouvo Manm",
+    "bronze": "🥉 Manm Bwonz",
+    "silver": "🥈 Manm Ajan",
+    "gold": "🥇 Manm Lò",
+    "vip": "👑 VIP Legend"
+  },
+  "unknown": "Enkoni",
+  "noDescription": "Pa gen deskripsyon",
+  "user": "Itilizatè",
+  "myPurchaseRequests": "Demand Acha Mwen Yo",
+  "noRequests": "Ou poko soumèt okenn demann.",
+  "itemLink": "Lyen Atik",
+  "viewProduct": "Gade Pwodwi a",
+  "estimatedPrice": "Pri estime",
+  "quantity": "Kantite",
+  "notes": "Nòt",
+  "status": "Estati",
+  "awaitingpayment": "Ap tann peman",
+  "ordered": "Komande",
+  "shipped": "Voye",
+  "cancelRequest": "Anile Demann",
+  "confirmDelete": "Ou sèten ou vle efase demann sa?",
+  "deleted": "Demann efase.",
+  "deleteFail": "Demann pa ka efase.",
+  "cancelledMsg": "Demann anile.",
+  "receiptUploaded": "✅ Resi telechaje. Nap verifye.",
+  "uploadFail": "Telechajman resi echwe.",
+  "yourPackageArrived": "Pakè ou rive nan U.S.",
+  "shippingFee": "Frè Shipping:",
+  "paymentInstructions": "Tanpri voye peman sou",
+  "cashAppTag": "CashApp: $haitipackage",
+  "uploadReceipt": "Apre peman, telechaje resi ou anba a.",
+  "itemPaid": "Atik ou an peye epi sou wout la!",
+  "submitted": "Soumèt",
+  "packageDetails": "Detay Pakè",
+  "trackingNumber": "Nimewo Suiv",
+  "customer": "Kliyan",
+  "shippingMethod": "Metòd Shipping",
+  "deliveryOption": "Opsyon Livrezon",
+  "note": "Nòt",
+  "loadingDetails": "Chaje detay pakè...",
+  "notFound": "Pakè pa jwenn.",
+  "trackYourPackages": "Swiv Pakè Ou",
+  "searchPlaceholder": "🔍 Chèche pa nimewo oswa deskripsyon...",
+  "noPackagesFound": "Okenn pakè pa jwenn.",
+  "noTracking": "Pa gen nimewo swiv",
+  "noDescriptionAlt": "Pa gen deskripsyon",
+  "back": "Retounen",
+  "next": "Swivan",
+  "submit": {
+    "success": "Pakè soumèt avèk siksè!",
+    "failed": "Echwe pou soumèt pakè. Eseye ankò!"
+  },
+  "error": {
+    "phoneRequired": "Tanpri antre nimewo telefòn ou!",
+    "descriptionRequired": "Tanpri dekri pwodwi ou!",
+    "priceRequired": "Tanpri antre yon pri ki valab!",
+    "screenshotRequired": "Tanpri telechaje resi anvan ou soumèt."
+  },
+  "step1": {
+    "title": "Enfòmasyon Kontak",
+    "customerName": "Non Kliyan",
+    "phone": "Telefòn (e.g. +509...)"
+  },
+  "step2": {
+    "title": "Detay Pakè",
+    "descriptionLabel": "Deskripsyon Pwodwi",
+    "descriptionPlaceholder": "Dekri pwodwi a...",
+    "priceLabel": "Pri Pwodwi",
+    "pricePlaceholder": "Antre pri a",
+    "senderLabel": "Non moun/oswa konpayi ki voye l'",
+    "senderPlaceholder": "egzanp: Amazon, Walmart, elatriye",
+    "creditsUsed": "Total Kredi ou Sèvi"
+  },
+  "step3": {
+    "title": "Shipping & Livrezon",
+    "shippingLabel": "Metòd Shipping",
+    "air": "Avyon",
+    "sea": "Bato",
+    "deliveryLabel": "Opsyon Livrezon",
+    "pickup": "Ranmase",
+    "home": "Lakay"
+  },
+  "step4": {
+    "title": "Revize Detay Pakè a",
+    "customerName": "Non Kliyan",
+    "whatsapp": "Nimewo WhatsApp",
+    "description": "Deskripsyon Pwodwi",
+    "price": "Pri Pwodwi",
+    "shipping": "Metòd Shipping",
+    "delivery": "Opsyon Livrezon",
+    "note": "Nòt",
+    "noNote": "Pa gen nòt espesyal",
+    "screenshot": "Resi",
+    "noScreenshot": "Pa gen resi telechaje",
+    "updateScreenshot": "Mizajou Resi (opsyonèl)",
+    "submit": "Konfime & Soumèt"
+  },
+  "virtualAddress": {
+    "label": "Adrès Virtual Ou:"
+  },
+  "card": {
+    "tracking": "Nimewo Swiv",
+    "copy": "Kopye",
+    "copied": "Kopye",
+    "status": "Estati",
+    "sender": "Kote nou achte pwodwi a",
+    "description": "Deskripsyon",
+    "readMore": "Li Plis",
+    "readLess": "Fèmen",
+    "submitted": "Soumèt",
+    "ready": "Pakè ou pare pou ranmase",
+    "pickupNote": "Tanpri vini nan biwo nou pou ranmase l.",
+    "cancel": "Anile Pakè a"
+  },
+  "statuses": {
+    "pending": "⏳ An Atant",
+    "awaitingpayment": "💰 Ap Tann Peman",
+    "ordered": "✅ Komande",
+    "shipped": "🚚 Voye",
+    "delivered": "📬 Livrezon Fèt",
+    "cancelled": "❌ Anile"
+  },
+  "home": {
+    "title": "Byenveni nan Haiti Virtual Mailbox",
+    "subtitle": "Jwenn pwòp adrès vityèl ou pou resevwa pakè yo san danje ak fyab.",
+    "getStarted": "Kòmanse"
+  },
+  "purchaseForm": {
+    "title": "Nou Achte Pou Ou",
+    "link": "Lyen Pwodwi",
+    "linkPlaceholder": "https://egzanp.com/pwodwi",
+    "price": "Pri estime (USD)",
+    "pricePlaceholder": "egzanp: 45.99",
+    "quantity": "Kantite",
+    "notes": "Nòt (koulè, gwosè, elatriye)",
+    "notesPlaceholder": "egzanp: Koulè: Ble, Gwosè: M",
+    "screenshot": "Resi (opsyonèl)",
+    "submit": "Soumèt Demann",
+    "loginRequired": "Tanpri konekte pou soumèt yon demann.",
+    "success": "✅ Demann ou an soumèt!",
+    "error": "Gen yon erè. Tanpri eseye ankò."
+  },
+  "nav": {
+    "dashboard": "Tablodbò",
+    "submit": "Voye Pakè",
+    "track": "Suiv Pakè",
+    "help": "Èd",
+    "about": "Sou nou",
+    "logout": "Dekonekte",
+    "login": "Konekte",
+    "register": "Enskri",
+    "manageUsers": "Jere Itilizatè",
+    "managePackages": "Jere Pakè",
+    "manageRequests": "Jere Demann",
+    "globalMessage": "Mesaj Global",
+    "faq": "Kesyon yo poze souvan",
+    "accountSettings": "Anviwònman Kont"
+  },
+
+  "help": {
+    "heading": "❓ Kijan Pou Sèvi ak Bwat Lakay",
+    "intro": "Men yon gid senp pou sèvi ak sèvis transpò pakè nou an.",
+    "step1": {
+      "title": "Etap 1: Kreye yon Kont",
+      "description": "Ale sou paj 'Enskri' epi kreye kont ou. Apre sa, w ap resevwa yon adrès vityèl tankou #HUB001-740065. Ou ka konekte sou tablodbò w la."
+    },
+    "step2": {
+      "title": "Etap 2: Wè Tablodbò a",
+      "description": "Apre ou fin konekte, w ap wè adrès vityèl ou, yon adrès shipping Ozetazini, epi 3 bouton: Voye Pakè, Achte Pou Mwen, ak Demann Mwen."
+    },
+    "step3": {
+      "title": "Etap 3: Voye yon Pakè",
+      "description": "Si ou achte yon atik sou entènèt (tankou Amazon), klike 'Voye Pakè', ranpli enfòmasyon adrès ou, nimewo telefòn, detay sou pwodwi a, pri, non moun ki voye a (pa egzanp Amazon), chwazi Air oswa Sea Shipping ak metòd livrezon (ranmase oswa lakay ou). Lè sa fini, telechaje resi acha a epi klike sou Voye.\n\nPa gen kat kredi oswa debi? 👉 Eseye sèvis 'Achte Pou Mwen' anba a."
+    },
+    "step4": {
+      "title": "Etap 4: Suiv Pakè ou",
+      "description": "Apre ou fin soumèt, pakè a ap parèt nan tablodbò w la. Sèvi ak paj 'Suiv Pakè' pou wè estati tankou: An Atant, Ap Tann Peman, Voye, oswa Livrezon Fè."
+    },
+    "step5": {
+      "title": "Etap 5: Peye Frè Shipping",
+      "description": "Lè atik ou a rive Ozetazini, ou ap wè yon mesaj sou paj Suiv Pakè a:\n💵 Pakè ou a rive Ozetazini\nFrè Shipping: $10.00\nVoye peman sou CashApp: $haitipackage\nLè sa fini, telechaje resi peman an anba a."
+    },
+    "step6": {
+      "title": "Etap 6: Tann Livrezon",
+      "description": "Lè nou verifye peman ou a, estati a ap mete ajou. Kontinye tcheke tablodbò w la pou mizajou. Lè li pare, n ap kontakte w pa telefòn oswa imèl pou ranmase li oswa resevwa livrezon."
+    },
+    "learn_buy_for_me": "Aprann sou Achte Pou Mwen",
+    "buy": {
+      "title": "Achte Pou Mwen",
+      "description1": "Si ou pa gen kat kredi oswa debi, sèvi ak sèvis 'Achte Pou Mwen'. Klike sou bouton an nan tablodbò a, voye lyen pwodwi a epi n ap achte li pou ou. Lè ou aksepte pri final la epi w peye, n ap trete li menm jan ak yon pakè nòmal.",
+      "description2": "📦 Pou rete enfòme sou demann ou yo, ale sou <strong>Demann Mwen</strong>. W ap jwenn mizajou estati an tan reyèl tankou:",
+      "status": {
+        "pending": "An Atant",
+        "awaiting": "Ap Tann Peman",
+        "ordered": "Komande",
+        "shipped": "Voye",
+        "delivered": "Livrezon Fè"
+      },
+      "status_text": {
+        "pending": "Demann resevwa, ap revize",
+        "awaiting": "Admin mete pri final la",
+        "ordered": "Nou achte atik la",
+        "shipped": "Atik la sou wout pou Ayiti",
+        "delivered": "Pare pou ranmase oswa livrezon"
+      },
+      "description3": "Lè atik ou a rive Ozetazini, w ap wè mesaj sa a:<br /><br />💵 <strong>Pakè ou a rive Ozetazini.</strong><br />Frè Shipping: <strong>$10.00</strong><br />Tanpri voye peman sou CashApp: <strong>$haitipackage</strong><br />Apre peman, telechaje resi ou anba a.",
+      "description4": "💳 Ou ka peye tou ak <strong>Zelle</strong> oswa <strong>MonCash</strong>. Telechaje konfimasyon peman an kòm prèv. Apre verifikasyon, n ap mete estati a ajou epi ou ka kontinye swiv lòd ou a nan <strong>Demann Mwen</strong>."
+    },
+    "language": {
+      "title": "Chanje Lang",
+      "intro": "Ou ka itilize Bwat Lakay swa an Kreyòl Ayisyen oswa Anglè. Pou chanje lang lan:",
+      "step1": "Klike sou bouton pou chanje lang (Kreyòl oubyen Anglè)",
+      "step2": "Chwazi lang ou prefere a",
+      "step3": "Aplikasyon an ap mete ajou otomatikman!",
+      "outro": "Sa fè Bwat Lakay pi fasil pou tout moun itilize nan lang yo pito."
+    },
+    "back": "Retounen lakay"
+  }
+}
