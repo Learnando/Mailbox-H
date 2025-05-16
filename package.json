@@ -1,0 +1,19 @@
+{
+  "name": "mailbox--en-advanced19-try-deployed---copy",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix frontend\"",
+    "build": "npm run build --prefix frontend && npm run build --prefix server",
+    "start": "node server/dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
